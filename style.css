@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1;
+}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+   
+  }
+
+ .nav-links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem; 
+  justify-content: space-around;
+ }
+
+ .nav-links li{
+  margin: 0 1rem;
+ } 
+ .nav-links a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+ }
+
+  .nav-left img {
+    display: block;
+    
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+  }
+
+
+  .auth-buttons a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    gap: 1.5rem;
+  }
+
+  .sign-in{
+    color: #6b6b6b;
+  }
+
+  .sign-up{
+    color: white;
+    background-color: blue;
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+  }
+   
+   .banner{
+    max-width: 50%;
+    max-height: 50%;
+    line-height: 0.5rem;
+   }
+
+  .image-banner {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    height: 5rem;
+    width: 5rem;
+    top: 100px;
+    right: 400px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  h1{
+    position: relative;
+    font-size: 4rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+  }
+
+  p{
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6b6b6b;
+    line-height: 1.5rem;
+  }
+
+  .banner h1 span {
+    color: blue;
+  }
+
+  .buttons{
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .gt-btn, .lv-btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+  .gt-btn {
+    background-color: #6C63FF;
+    color: white;
+  }
+
+  .lv-btn {
+    border: 2px solid #6C63FF;
+    color: #6C63FF;
+    
+  }
+
+/* Trusted Section */
+.trusted-section {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background-color: #f9fafc;
+}
+
+.trusted-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.trusted-section h2 span {
+  font-weight: bold;
+  color: #6C63FF;
+}
+
+.trusted-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.trusted-logos .logo {
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+/* Statistics Section */
+.stats-section {
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.stats-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.stats-section h2 span {
+  font-weight: bold;
+  color: #6C63FF;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.stat-card {
+  background-color: #f4f4f9;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100px;
+}
+
+.stat-card h3 {
+  color: #6C63FF;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.stat-card p {
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Additional Statistics Section */
+.additional-stats-section {
+  padding: 3rem 1.5rem;
+  background-color: #f9fafc;
+  text-align: center;
+}
+
+.additional-stats-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.additional-stats-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.additional-stats-cards .stat-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 120px;
+}
